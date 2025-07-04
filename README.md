@@ -77,3 +77,5 @@ All charts and insights were summarized into a clean dashboard for easy visualiz
 ## Visual Preview
 
 Here is a sample chart from my Excel analysis:
+
+![Sales Chart](https://github.com/GbengaTosin/DSA-Amazon-Sales-Analysis/blob/main/Screenshot%202025-07-04%20103128.png)
