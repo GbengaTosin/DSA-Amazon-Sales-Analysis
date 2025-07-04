@@ -1,13 +1,12 @@
-# DSA-Amazon-Sales-Analysis
-A data analysis project from DSA, exploring pricing, ratings, and revenue trends of Amazon products using Excel pivot tables and dashboards. The project identifies high-discount opportunities, sales potential, and product performance based on customer reviews and price ranges.
+# DSA-Amazon-Sales-Analysis (DSA Project Work)
+This project is part of my beginner journey into data analysis using Microsoft Excel. It was completed as a learning project under Digital Skillup Africa (DSA), focusing on the analysis of Amazon product data. The project explores pricing, customer ratings, and revenue trends using Excel tools such as pivot tables and interactive dashboards. Key insights include identifying high-discount opportunities, evaluating sales potential, and measuring product performance based on customer reviews and price ranges.
 
-#  Amazon Sales Data Analysis
 ## Project Overview
 
 This project analyzes a cleaned Amazon sales dataset using Microsoft Excel. The dataset includes product names, categories, prices, discounts, ratings, and calculated revenue potential. The goal is to generate insights that can guide product improvement, marketing strategies, and customer engagement.
 
 ## Data Source
-The dataset used in this project was provided during the DSA Data Analysis program. It contains cleaned Amazon India product listings, including prices, ratings, discount percentages, and estimated revenue. The data may have been originally scraped or simulated for educational purposes.
+The dataset used in this project was provided during the Digital Skillup Africa (DSA) Data Analysis program. It contains cleaned Amazon India product listings, including prices, ratings, discount percentages, and estimated revenue. The data may have been originally scraped or simulated for educational purposes.
 
 ## Tools Used
 
@@ -21,10 +20,11 @@ The dataset used in this project was provided during the DSA Data Analysis progr
 
 Before performing the analysis, the dataset underwent several data cleaning steps in Excel to ensure consistency and accuracy. This included:
 
-- Removing duplicate product listings
-- Splitting and standardizing product names and categories
-- Calculating additional metrics such as revenue (`Selling Price × Number of Ratings`)
-- Replacing empty columns
+- Removed duplicate product listings to ensure data accuracy
+- Eliminated unnecessary columns that were not relevant to the analysis
+- Split and standardized product names and categories for better grouping
+- Calculated additional metrics such as Revenue (`Discounted Price × Rating Count`)
+- Replaced empty or missing values to maintain data consistency
 
 The cleaned version of the dataset is saved as **Amazon Cleaned Data.xlsx** and used for all pivot tables and dashboard visualizations.
 
@@ -59,9 +59,21 @@ All charts and insights were summarized into a clean dashboard for easy visualiz
 - Sales Category Distribution
 - Rating and Review Score Impact
 
-## Insights
+## Insights (What I Found)
 
-- Over 60% of products analyzed were sold at a discount of 50% or more.
-- Products in the ₹200–₹500 range dominate both in volume and revenue potential.
-- Some products with very low ratings still contribute to high revenues due to large sales volumes.
+- **High-End Product Focus:** A significant portion of the products in the dataset are priced above $500, indicating that many sellers are targeting the premium market segment.
+- **Underrepresented Categories:** At least five categories, including Toys & Games, have a very low number of listed products, pointing to missed opportunities in those areas.
+- **Top-Rated Products Drive Engagement:** Products with 4.0-star ratings and above consistently have the highest number of reviews, suggesting that customers trust and favor these items.
+- **Heavy Discounting Patterns:** Some products are sold at steep discounts — up to 94% off — with the average discount rate around 47%, reflecting aggressive pricing strategies.
 
+## Recommendations (What I Suggest)
+
+1. **Add More Affordable Products:** Introduce lower-priced items to attract customers with smaller budgets, increasing accessibility and market coverage.
+2. **Expand Underserved Categories:** Consider adding more products to categories with low representation, such as Toys & Games, which may open up new sales opportunities.
+3. **Promote Top-Rated Products:** Highlight and market products with high ratings and strong customer reviews — these items already have built-in trust and can drive faster conversion rates.
+4. **Review Discount Strategies:** Evaluate whether large discounts are sustainable and profitable. Consider implementing targeted promotions instead of broad price slashing.
+5. **Monitor and Adapt to Customer Trends:** Keep an eye on customer behavior, preferences, and feedback to adjust pricing, product offerings, and marketing strategies accordingly.
+
+## Visual Preview
+
+Here is a sample chart from my Excel analysis:
